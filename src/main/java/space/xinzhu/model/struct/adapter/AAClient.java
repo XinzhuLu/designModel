@@ -7,4 +7,20 @@ package space.xinzhu.model.struct.adapter;
  * Update for ??? on ???? / ?? / ?? by ???
  **/
 public class AAClient {
+
+    public static void main(String[] args) {
+
+        //TriplePin triplePin = new TV();
+
+        DualPin dualPinDevice = new TV();
+        TriplePin triplePinDevice = new Adapter(dualPinDevice);
+
+        triplePinDevice.electrify(1,0,-1);
+
+        System.out.println("------------类适配器--------------");
+
+        TriplePin tvAdapter = new TVAdapter();
+        tvAdapter.electrify(1 , 0 , -1);
+
+    }
 }
