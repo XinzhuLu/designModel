@@ -7,4 +7,17 @@ package space.xinzhu.model.action.templateMethod;
  * Update for ??? on ???? / ?? / ?? by ???
  **/
 public class AAClient {
+
+    public static void main(String[] args) {
+        //Mammal mammal = new Whale();
+        //mammal.live();
+        //mammal = new Human();
+        //mammal.live();
+
+        PM pm = new HRProject();
+        pm.kickoff();
+
+        pm = new APIProject();
+        pm.kickoff();
+    }
 }

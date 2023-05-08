@@ -7,4 +7,20 @@ package space.xinzhu.model.action.state;
  * Update for ??? on ???? / ?? / ?? by ???
  **/
 public class AAClient {
+
+    public static void main(String[] args) {
+
+/*        Switcher s = new Switcher();
+        s.switchOff();
+        s.switchOn();
+        s.switchOn();
+        s.switchOff();*/
+
+        TrafficLight trafficLight = new TrafficLight();
+        trafficLight.switchToYellow();
+        trafficLight.switchToGreen();
+        trafficLight.switchToYellow();
+        trafficLight.switchToRed();
+        trafficLight.switchToGreen();
+    }
 }

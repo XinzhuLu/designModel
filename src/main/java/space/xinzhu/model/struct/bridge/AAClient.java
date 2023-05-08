@@ -7,4 +7,11 @@ package space.xinzhu.model.struct.bridge;
  * Update for ??? on ???? / ?? / ?? by ???
  **/
 public class AAClient {
+
+    public static void main(String[] args) {
+        new WritePen(new SquareRuler()).draw();
+        new WritePen(new TriangleRuler()).draw();
+        new BlackPen(new SquareRuler()).draw();
+        new BlackPen(new TriangleRuler()).draw();
+    }
 }
